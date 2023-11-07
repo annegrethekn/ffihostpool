@@ -1,0 +1,13 @@
+deploy_location      = "north europe"
+rg                   = "FFIonlinerg"
+prefix               = "ffihp01"
+local_admin_username = "localadm"
+local_admin_password = random_password.poolepassord.result
+Hostpoolname         = "FFIPOOL"
+MaskinNavn           = "FFImask"
+Domeneresurs         = "Domeneresurs"
+ffionlinepoolnet      = "ffionlinepoolnet"
+onlinepoolsubnet01    = "onlinepoolsubnet01"
+tilaad                = "tilaad02"
+rdsh_count            = 2
+vm_size               = "Standard_DS1_v2"
